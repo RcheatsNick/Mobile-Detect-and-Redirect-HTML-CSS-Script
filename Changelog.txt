@@ -1,0 +1,49 @@
+shared on codelist.cc
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Item Name: Mobile Detect-Redirect Script With Cookies
+
+----------------------------------------------------------------------------------------------------------------------------
+
+CHANGELOG:  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+--- version 1.0.4.150501
+
+  --- the script can now be configured to redirect to the corresponding page on the mobile device
+    
+    - files: mobile-detect-redirect.js
+
+
+
+--- version 1.0.3.130924
+
+  --- minor design tweaks
+    
+    - files: mobile-redirect.css
+
+
+
+--- version 1.0.2.130828
+
+  --- mobile devices list has been extended
+    
+    - files: mobile-redirect.js
+
+
+
+--- version 1.0.1.130618
+
+  --- minor improvements
+    
+    - files: mobile-redirect.js, mobile-redirect.css
+
+
+
+--- version 1.0.0.130530
+
+  - initial version

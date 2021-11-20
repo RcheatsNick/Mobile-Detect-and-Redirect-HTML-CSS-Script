@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Help File</title>
+<!-- meta tags start -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- meta tags end -->
+
+<!-- favorite icon starts -->
+<link rel="shortcut icon" href="help-source/images/favicon.ico" type="image/x-icon" />
+<!-- favorite icon ends -->
+
+<!-- Google fonts start -->
+<link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css" />
+<!-- Google fonts ends -->
+
+<!-- CSS files start -->
+<link href="help-source/css/framework.css" rel="stylesheet" type="text/css" />
+<link href="help-source/css/style.css" rel="stylesheet" type="text/css" />
+<!-- CSS files end -->
+
+<!-- JavaScript files start -->
+<script type="text/javascript" src="help-source/js/jquery.min.js"></script>
+<script type="text/javascript" src="help-source/js/effects.jquery-ui.min.js"></script>
+<script type="text/javascript" src="help-source/js/custom.js"></script>
+<!-- JavaScript files end -->
+</head>
+<body>
+<!-- website wrapper starts -->
+<div class="websiteWrapper"> 
+  
+  <!-- page wrapper starts -->
+  <div class="pageWrapper"> 
+    
+    <!-- header wrapper starts -->
+    <div class="headerWrapper">
+      <div class="logoContactWrapper"> <a href="http://pixek.com" class="mainLogo"></a>
+        <div class="contactOptionsWrapper"> <a href="http://envato.pixek.com/support" class="contactOption supportOption">Support</a> <a href="http://codecanyon.net/user/cosmincotor/portfolio" class="contactOption projectsOption">Projects</a> <a href="http://envato.pixek.com/mobile/items/codecanyon/mobile-redirect" class="contactOption previewOption">Preview</a> </div>
+      </div>
+      <div class="itemDetailsWrapper">
+        <h2 class="itemTitle">Mobile Detect-Redirect Script With Cookies</h2>
+        <div class="itemInfoWrapper"> <span class="itemInfo itemType">jQuery Plugin</span> <span class="itemInfo itemVersion">v1.0.4.150501</span> </div>
+      </div>
+    </div>
+    <!-- header wrapper ends --> 
+    
+    <!-- main menu wrapper starts -->
+    <div class="mainMenuWrapper">
+      <div class="mainMenu"> 
+        <!-- menu item starts --> 
+        <a href="#s1" class="menuItem">A Few Words</a> 
+        <!-- menu item ends --> 
+        <!-- menu item starts --> 
+        <a href="#s4" class="menuItem">How Does It Work</a> 
+        <!-- menu item ends --> 
+        <!-- menu item starts --> 
+        <a href="#s2" class="menuItem">Credits</a> 
+        <!-- menu item ends --> 
+        <!-- menu item starts --> 
+        <a href="#s5" class="menuItem">How To Customize Your Item</a> 
+        <!-- menu item ends --> 
+        <!-- menu item starts --> 
+        <a href="#s3" class="menuItem">Item Structure</a> 
+        <!-- menu item ends --> 
+        <!-- menu item starts --> 
+        <a href="#s6" class="menuItem">Integrate This Script Into Your Project</a> 
+        <!-- menu item ends --> 
+      </div>
+    </div>
+    <!-- main menu wrapper ends --> 
+    
+    <!-- section starts -->
+    <div class="sectionWrapper" id="s1">
+      <h4 class="sectionTitleWrapper"><span class="sectionTitle">A Few Words</span><span class="backToTopButton">top</span></h4>
+      <p>Thank you very much for purchasing our items!</p>
+      <p>While support is not mandatory on the envato marketplaces, feel free to contact us if you have a question or a problem with one of our premium items, and we will try to help you.</p>
+    </div>
+    <!-- section ends --> 
+    
+    <!-- section starts -->
+    <div class="sectionWrapper" id="s2">
+      <h4 class="sectionTitleWrapper"><span class="sectionTitle">How Does It Work</span><span class="backToTopButton">top</span></h4>
+      <p>This plugin detects if the user is visiting your website from a mobile device and if that is the case it will show him a window where he can choose between two options, stay on the main website or visit the mobile version.</p>
+      <p>To prevent the window from showing up each time the user visits your website, or goes to another page this plugin uses a cookie system which remembers the user's choice, if he wants to.</p>
+      <p>The cookie script will only work on a server, so testing it locally is not possible.</p>
+    </div>
+    <!-- section ends --> 
+    
+    <!-- section starts -->
+    <div class="sectionWrapper" id="s3">
+      <h4 class="sectionTitleWrapper"><span class="sectionTitle">Credits</span><span class="backToTopButton">top</span></h4>
+      <p>Some assets included in our projects belong to other authors, and can be used in commercial projects:</p>
+      <p class="creditWrapper">jQuery - <a href="http://jquery.com">jquery.com</a></p>
+      <p>NOTE! Some assets might not be listed above.</p>
+    </div>
+    <!-- section ends --> 
+    
+    <!-- section starts -->
+    <div class="sectionWrapper" id="s4">
+      <h4 class="sectionTitleWrapper"><span class="sectionTitle">Item Structure</span><span class="backToTopButton">top</span></h4>
+      <p>All our items are organized the same way.</p>
+      <p>Source files:</p>
+      <p class="listItemWrapper">"HELP" - this folder contains all the instructions</p>
+      <p class="listItemWrapper">"HTML-CSS" - this folder contains all the source files</p>
+      <p class="listItemWrapper">"Changelog.txt" - this file contains a list of updates, and modified files</p>
+    </div>
+    <!-- section ends --> 
+    
+    <!-- section starts -->
+    <div class="sectionWrapper" id="s5">
+      <h4 class="sectionTitleWrapper"><span class="sectionTitle">How To Customize Your Item</span><span class="backToTopButton">top</span></h4>
+      <p>This item has two files, a JavaScript file named "js/mobile-detect-redirect.js" and a CSS file named "css/mobile-detect-redirect.css". Both file are required on the same page.</p>
+      <p>All the settings can be found in the JavaScript file at the top.</p>
+      <p>The settings look like this:</p>
+      <div class="codeWrapper">
+        <pre>// initial settings start
+	var showRedirectWindow = 'true'; // set this to 'false' to disable the redirect form, and send users directly to the mobile version
+	var redirectToPage = 'false'; // set this to 'true' if you want to redirect from a page to the corresponding mobile page, e.g. www.example.com/page - m.example.com/page
+	var redirectProtocol = 'http://'; // set this to  'https://' if you need to
+	var redirectLocationName = 'm'; // if 'redirectFolder' is set to 'false' this value will be used as the sub-domain and the redirect URL will be 'http://m.example.com'. If 'redirect folder is set to 'true' the URL will become 'http://example.com/m'
+	var redirectToFolder = 'false'; // set this to true if you are redirecting to a sub-folder and not to a sub-domain
+	var redirectDomain = 'example.com'; // set your main domain
+	var redirectURL = ''; // do no modify!
+	var redirectTitle = 'Mobile device detected';
+	var redirectMessage = 'This page is not optimized for mobile devices, would you like to visit our mobile website?';
+	var redirectChoice = ''; // do not modify!
+	var rememberChoice = 'false'; // do not modify!
+	var redirectWindowWidth = 252; // the width of the form without paddings and borders
+	var redirectWindowHeight = 280; // the height of the form without paddings and borders
+	
+	var redirectPath = window.location.pathname; // do not modify!
+	
+	var cookieLife = 7; // the number of days until the cookie is deleted
+	var redirectCookie = ''; // do not modify!
+	
+	var mobileDevice = (/iphone|ipad|ipod|android|iemobile|windows phone|blackberry|BB10|opera mini/).test(navigator.userAgent.toLowerCase()); // you can add more mobile devices here
+	
+	var desktopMode = 'false'; // 'true' for tests only, the default value should be 'false'
+	// initial settings end</pre>
+      </div>
+      <p>You may also want to adjust your "viewport" settings for your main website, like the "initial-zoom" value and "user-scalable" value. If they are not set, the page might be zoomed out and fitted to the users mobile devices, making the window too small (of course in this case the user can zoom in and still be able to read the message).</p>
+    </div>
+    <!-- section ends --> 
+    
+    <!-- section starts -->
+    <div class="sectionWrapper" id="s6">
+      <h4 class="sectionTitleWrapper"><span class="sectionTitle">Integrate This Script Into Your Project</span><span class="backToTopButton">top</span></h4>
+      <p>If you want to add this plugin to your website you need to add the "mobile-detect-redirect.js" JavaScript file and the "mobile-detect-redirect.css" CSS file to your HTML or PHP files (pages).</p>
+      <p>Let us assume you have a HTML template inside a folder called "website". You need to copy the two files mentioned above to that folder. You can place them in sub-folders if you wish, for example the JavaScript file "mobile-detect-redirect.js" can be placed in "website/js/mobile-detect-redirect.js" and the CSS file "mobile-detect-redirect.css" in another sub-folder like this "website/css/mobile-detect-redirect.css".</p>
+      <p>Now you need to include both files into your HTML template along with jQuery. To do that, open your HTML files in a code editor, and add the lines bellow between the "head" tags:</p>
+      <div class="codeWrapper">
+        <pre>&lt;link href="css/mobile-detect-redirect.css" rel="stylesheet" type="text/css" media="all" /&gt;
+&lt;script type="text/javascript" src="js/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="js/mobile-detect-redirect.js"&gt;&lt;/script&gt;</pre>
+      </div>
+      <p>The line of code for the JavaScript file does not have to be right after the CSS file, you can group them with your other files to keep your code organized.</p>
+      <p>You must include the "mobile-detect-redirect.js" file after the line of code for jQuery, otherwise it will not work.</p>
+      <p>Please make sure the paths for the files are correct. In this example we assumed the HTML files are in the main folder called "website" together with the folders "js" and "css".</p>
+      <p>You do not need to use the included HTML file "index.html", or any of its code. The "images" folder is not required.</p>
+      <p>For WordPress based websites you should use <a href="http://codex.wordpress.org/Function_Reference/wp_enqueue_script">enqueue script</a> and <a href="http://codex.wordpress.org/Function_Reference/wp_enqueue_style">enqueue style</a>.</p>
+    </div>
+    <!-- section ends --> 
+    
+    <!-- copyright wrapper starts -->
+    <div class="copyrightWrapper"> <span class="copyright">&copy; copyright pixek, all rights reserved.</span> <a href="http://terms-and-conditions.cosmincotor.com" class="terms">t&amp;c</a> </div>
+    <!-- copyright wrapper ends --> 
+    
+  </div>
+  <!-- page wrapper ends --> 
+  
+</div>
+<!-- website wrapper ends -->
+</body>
+</html>
